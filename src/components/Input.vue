@@ -7,7 +7,7 @@
         placeholder='Password'
         >
       </label>
-    <MeterBar :password='password' />
+    <pm-meter-bar :password='password' />
     </div>
 </template>
 
@@ -16,7 +16,7 @@ import MeterBar from './MeterBar.vue';
 
 export default {
   components: {
-    MeterBar,
+    'pm-meter-bar': MeterBar,
   },
   data() {
     return {

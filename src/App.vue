@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <PasswordMeter />
+    <pm-password-meter />
   </div>
 </template>
 
@@ -8,9 +8,9 @@
 import PasswordMeter from './components/PasswordMeter.vue';
 
 export default {
-  name: 'Password Meter',
+  name: 'password-meter',
   components: {
-    PasswordMeter,
+    'pm-password-meter': PasswordMeter,
   },
 };
 </script>

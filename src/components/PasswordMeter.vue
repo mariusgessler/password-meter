@@ -1,6 +1,6 @@
 <template>
   <div class='password-meter__container'>
-    <Input />
+    <pm-input />
   </div>
 </template>
 
@@ -9,7 +9,7 @@ import Input from './Input.vue';
 
 export default {
   components: {
-    Input,
+    'pm-input': Input,
   },
 };
 

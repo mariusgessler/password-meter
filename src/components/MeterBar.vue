@@ -3,7 +3,7 @@
     <div class='meter-bar__container'>
       <div :class='["meter-bar__fill", getFill() ]' />
     </div>
-    <Feedback :strength='strength' />
+    <pm-feedback :strength='strength' />
   </div>
 </template>
 
@@ -13,7 +13,7 @@ import Feedback from './Feedback.vue';
 
 export default {
   components: {
-    Feedback,
+    'pm-feedback': Feedback,
   },
   props: {
     password: {
