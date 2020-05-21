@@ -9,7 +9,7 @@ export default {
       clearTimeout(this.timeout);
       this.timeout = setTimeout(() => {
         this.getFeedback();
-      }, 500);
+      }, 300);
     });
   },
   methods: {
