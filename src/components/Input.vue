@@ -39,7 +39,6 @@ export default {
     border-radius: 15px;
     background-color: #EBECF0;
     font-family: 'DM Mono', monospace;
-    text-transform: uppercase;
     letter-spacing: .3em;
     text-shadow: 1px 1px 0 #FFF;
     box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
@@ -51,6 +50,10 @@ export default {
 
     &:focus {
     box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+    }
+
+    &::placeholder {
+      text-transform: uppercase;
     }
   }
 }
