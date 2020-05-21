@@ -1,8 +1,8 @@
 # Password-Meter
 
-A tool with which you can take a password's strenght. Based on Dropbox' zxcvbn.
+Check a password's strength with this tool. Based on Dropbox' [zxcvbn](https://dropbox.tech/security/zxcvbn-realistic-password-strength-estimation).
 
-Take a look at the [live-version](https://mariusgessler.com).
+[Check it out](https://password-meter.netlify.app/).
  
 ## Technologies 
 
