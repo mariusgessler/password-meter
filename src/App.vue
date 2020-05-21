@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <PasswordMeter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PasswordMeter from './components/PasswordMeter.vue';
 
 export default {
-  name: 'App',
+  name: 'Password Meter',
   components: {
-    HelloWorld
-  }
-}
+    PasswordMeter,
+  },
+};
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+  background-color: #EBECF0;
+  background-image: url("./assets/clean-textile.png");
+  margin: 0;
+  height: 100vh;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  position: relative;
+  top: 50%;
 }
 </style>
