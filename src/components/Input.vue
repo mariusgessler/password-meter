@@ -5,6 +5,7 @@
         v-model='password'
         type='password'
         placeholder='Password'
+        id='password'
         >
       </label>
     <pm-meter-bar :password='password' />
