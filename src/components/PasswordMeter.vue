@@ -27,7 +27,7 @@ export default {
   background-image: url("../assets/clean-textile.png");
   box-shadow: 20px 20px 60px #c8c9cc,
              -20px -20px 60px #ffffff;
-  animation: fadein 3s;
+  animation: fadein 1.5s;
 }
 
 @keyframes fadein {
