@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c24aef9-0acd-4fd6-9748-205538b16801/deploy-status)](https://app.netlify.com/sites/password-meter/deploys)
 # Password-Meter
 
 Check a password's strength with this tool. Based on Dropbox' [zxcvbn](https://dropbox.tech/security/zxcvbn-realistic-password-strength-estimation).
