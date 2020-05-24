@@ -47,5 +47,6 @@ export default {
   font-size: 14px;
   color: #757575;
   font-family: 'Roboto Mono', monospace;
+  letter-spacing: 0.7px;
 }
 </style>
